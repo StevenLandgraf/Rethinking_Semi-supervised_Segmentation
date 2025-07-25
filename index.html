@@ -180,23 +180,26 @@
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/Results_Quantitative.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Quantitative comparison of the predictive performance (mIoU), calibration (ECE), and uncertainty (p(acc|cer), p(unc|inacc)) of the supervised baseline
-          and UniMatchV2 under increasing levels of fog and rain on the Foggy and Rainy Cityscapes datasets.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/Results_Qualitative.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Qualitative comparison between the supervised and UniMatchV2 models
-          on the strongest perturbed versions of Foggy (top) and Rainy Cityscapes (bottom). Each row shows from left to right: Input image, ground truth, prediction,
-          and the corresponding uncertainty, computed using Shannon entropy.
-        </h2>
-      </div>
+        <div class="item">
+          <!-- Center and resize the image -->
+          <div class="has-text-centered">
+            <img src="static/images/Results_Quantitative.png" alt="MY ALT TEXT" style="max-width: 85%; height: auto;" />
+          </div>
+          <h2 class="subtitle has-text-centered">
+            Quantitative comparison of the predictive performance (mIoU), calibration (ECE), and uncertainty (p(acc|cer), p(unc|inacc)) of the supervised baseline
+            and UniMatchV2 under increasing levels of fog and rain on the Foggy and Rainy Cityscapes datasets.
+          </h2>
+        </div>
+        <div class="item">
+          <div class="has-text-centered">
+            <img src="static/images/Results_Qualitative.png" alt="MY ALT TEXT" style="max-width: 85%; height: auto;" />
+          </div>
+          <h2 class="subtitle has-text-centered">
+            Qualitative comparison between the supervised and UniMatchV2 models
+            on the strongest perturbed versions of Foggy (top) and Rainy Cityscapes (bottom). Each row shows from left to right: Input image, ground truth, prediction,
+            and the corresponding uncertainty, computed using Shannon entropy.
+          </h2>
+        </div>
   </div>
 </div>
 </div>
